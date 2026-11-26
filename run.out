@@ -1,0 +1,22 @@
+2026-07-15 22:04:25,799 | INFO    | db | БД готова: C:\Users\golub\OneDrive\Документы\For Claude\nexora-support-bot\nexora_support.db
+2026-07-15 22:04:25,799 | INFO    | nexora | Telegram API через прокси: http://127.0.0.1:10801
+2026-07-15 22:04:26,383 | INFO    | nexora | Запуск @Nexora_PayBot | админский чат: 7855671210
+2026-07-15 22:04:26,898 | INFO    | aiogram.dispatcher | Start polling
+2026-07-15 22:04:26,981 | INFO    | aiogram.dispatcher | Run polling for bot @Nexora_PayBot id=8086361530 - 'NexoraPay'
+2026-07-15 22:04:27,112 | INFO    | services | Заявка #0001 доставлена админу (msg_id=57)
+2026-07-15 22:04:27,112 | INFO    | nexora | Карточка #0001 доставлена повторно
+2026-07-15 22:04:37,155 | INFO    | handlers.admin | Заявка #0001 принята, чат открыт с user_id=8823971329
+2026-07-15 22:04:50,481 | INFO    | handlers.admin | Ответ админа доставлен по тикету #0001
+2026-07-15 22:05:06,391 | INFO    | handlers.admin | Ответ админа доставлен по тикету #0001
+2026-07-15 22:05:25,500 | INFO    | handlers.admin | Ответ админа доставлен по тикету #0001
+2026-07-15 22:06:19,510 | INFO    | handlers.admin | Ответ админа доставлен по тикету #0001
+2026-07-15 22:06:27,308 | INFO    | services | Тикет #0001 закрыт
+2026-07-15 22:06:39,204 | INFO    | handlers.user | Тикет #0001 оценён на 5
+2026-07-15 22:55:20,395 | ERROR   | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 64] Указанное сетевое имя более недоступно
+2026-07-15 22:55:20,399 | WARNING | aiogram.dispatcher | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8086361530)
+2026-07-15 22:55:23,426 | ERROR   | aiogram.dispatcher | Failed to fetch updates - ProxyConnectionError: [Errno 22] Couldn't connect to proxy 127.0.0.1:10801 [Удаленный компьютер отклонил это сетевое подключение]
+2026-07-15 22:55:23,427 | WARNING | aiogram.dispatcher | Sleep for 1.255229 seconds and try again... (tryings = 1, bot id = 8086361530)
+2026-07-15 22:55:26,713 | ERROR   | aiogram.dispatcher | Failed to fetch updates - ProxyConnectionError: [Errno 22] Couldn't connect to proxy 127.0.0.1:10801 [Удаленный компьютер отклонил это сетевое подключение]
+2026-07-15 22:55:26,713 | WARNING | aiogram.dispatcher | Sleep for 1.663395 seconds and try again... (tryings = 2, bot id = 8086361530)
+2026-07-15 22:55:30,391 | ERROR   | aiogram.dispatcher | Failed to fetch updates - ProxyConnectionError: [Errno 22] Couldn't connect to proxy 127.0.0.1:10801 [Удаленный компьютер отклонил это сетевое подключение]
+2026-07-15 22:55:30,391 | WARNING | aiogram.dispatcher | Sleep for 2.161387 seconds and try again... (tryings = 3, bot id = 8086361530)
