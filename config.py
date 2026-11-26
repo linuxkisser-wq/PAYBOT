@@ -37,7 +37,7 @@ PROXY_URL: str | None = (
     or None
 )
 
-DB_PATH: Path = BASE_DIR / os.getenv("DB_PATH", "nexora_support.db")
+DATABASE_URL: str = os.getenv("DATABASE_URL", "").strip()
 LOG_FILE: Path = BASE_DIR / os.getenv("LOG_FILE", "bot.log")
 
 TICKET_TIMEOUT_HOURS: int = int(os.getenv("TICKET_TIMEOUT_HOURS", "24"))

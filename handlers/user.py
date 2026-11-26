@@ -2,7 +2,7 @@
 
 import logging
 
-import aiosqlite
+import asyncpg
 from aiogram import Bot, F, Router
 from aiogram.enums import ChatAction, ChatType
 from aiogram.exceptions import TelegramAPIError
@@ -254,7 +254,7 @@ async def cb_confirm_send(callback: CallbackQuery, bot: Bot) -> None:
             description=session["temp_desc"],
             photo_id=session["temp_photo"],
         )
-    except aiosqlite.IntegrityError:
+    except asyncpg.UniqueViolationError:
         # Двойной тап по «Отправить»: заявка уже создана первым нажатием.
         await callback.answer(f"Заявка {texts.tn(ticket_id)} уже отправлена", show_alert=True)
         return
